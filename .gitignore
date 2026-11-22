@@ -1,0 +1,58 @@
+# Dataset (Large training CSV - 30+ MB)
+data/urls.csv
+data/*.csv
+*.csv
+
+# Python Bytecode and Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Local Database Journal / Temp Files
+*.db-journal
+*.sqlite3-journal
+
+# Vercel Deployment Artifacts
+.vercel/
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# IDE and Editor Configurations
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Operating System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Logs and Temporary Files
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# Explicitly ensure the trained ML model is tracked and included
+!models/phishing_rf.joblib

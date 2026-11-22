@@ -1,0 +1,26 @@
+# Exclude training dataset from Vercel deployment bundle
+data/urls.csv
+data/*.csv
+*.csv
+
+# Exclude training script from serverless bundle
+train_model.py
+
+# Python Cache & Virtual Environments
+__pycache__/
+*.pyc
+venv/
+.venv/
+env/
+
+# Git & IDE configs
+.git/
+.gitignore
+.vscode/
+.idea/
+
+# Local logs and OS files
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
